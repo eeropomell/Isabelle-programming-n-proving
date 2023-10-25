@@ -1,4 +1,4 @@
-theory logic.thy imports Main
+theory logic imports Main
 begin
 
 lemma neg_disj_to_conj:"\<not>(P \<or> Q) \<Longrightarrow> \<not>P \<and> \<not>Q"
