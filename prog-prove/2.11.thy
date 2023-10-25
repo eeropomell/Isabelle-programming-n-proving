@@ -1,9 +1,5 @@
-
-
-
 theory pol imports Main
 begin
-
 
 
 datatype exp = Var | Const int | Add exp exp | Mult exp exp
